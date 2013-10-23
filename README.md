@@ -11,7 +11,9 @@ Create a copy of a directory and all sub directories with all the files split ou
   - - node organize myDir
 
 ### config.js
-config.js exports a simple pojo (plain old javascript object) with each key representing a languge you with your files to be organized into. The value of these propertys will be objects that may or may not hold an exclude array or regExp values 
+config.js exports a simple pojo (plain old javascript object) with each key representing a languge you wish
+your files to be organized into. The value of these propertys will be objects that may or may not hold an 
+exclude array filled with regExp values
 eg
 
     config={"js": {exclude: [/min.js$/]}}
