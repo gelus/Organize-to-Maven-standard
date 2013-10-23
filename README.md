@@ -18,4 +18,4 @@ eg
 
     config={"js": {exclude: [/min.js$/]}}
     
-Currently it holds a Less/Js example that matches the exampleDir
+Currently it holds a Less/Js example
