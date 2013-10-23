@@ -1,0 +1,7 @@
+{
+	"name": "MavenOrginization",
+	"version": "0.0.0",
+	"Author": "Benjamin Miller",
+	"description": "Walk and sort a directory into sibling according to the Maven Standard",
+	"main": "./organize.js"
+}

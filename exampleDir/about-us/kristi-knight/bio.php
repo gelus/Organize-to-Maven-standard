@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<h1 id="name">Kristi Knight</h1>
+<h3 id="title">Chief Marketing Officer</h3>
+<div id="bio">
+	<div id="preview">
+		<p>Kristi Knight has more than 20 years of executive experience building strategic communication and corporate marketing programs.</p>
+		<p>She directs Mindshare&rsquo;s public &amp; internal positioning and global marketing strategies.</p>
+	</div>
+	<p>Kristi has directed public relations, analyst relations, and client relations from executive positions with high-growth technology companies, as well as from a full-service communications and marketing agency she founded and later sold. She has overseen corporate communications and positioning through several major acquisitions, including two of the largest business transactions in Utah’s history.</p>
+	<p>As CMO of Mindshare, Kristi oversees all global marketing initiatives, including corporate marketing, product marketing, customer marketing, lead generation, public relations, and analyst relations. She coordinates with internal and external leadership to create a strong, differentiated brand experience designed to maximize company valuation. </p>
+	<p>After college, Kristi went to work for Innovative Software Enterprises, a start-up technology company that developed software for dental and medical offices. There she rose to the position of national sales manager before joining Solomon Advisory Services as senior consultant. In her role there, Kristi was heavily involved in the production of marketing campaigns through national radio and television commercials as well as print and direct mail. From there, she went to work at a public relations firm and soon after founded her own agency, where she worked with, and eventually joined, online marketing and web analytics company Omniture. </p>
+	<p>At Omniture, Kristi helped launch the company into the national and global spotlight, successfully guiding the company through both its initial public offering and an acquisition by Adobe Systems, which represented the state’s largest technology business transaction at that time.</p>
+	<p>In 2010, Kristi became the VP of marketing for APX Alarm, a Utah-based home security company. Within three years, she oversaw the complete re-branding of the company from APX Alarm to Vivint, making it the largest home automation company in North America and a leading technology company in the state. She also managed communications and messaging around Vivint’s recent acquisition by Blackstone, which usurped the Omniture transaction as the largest technology deal in Utah.</p>
+	<p>Kristi graduated cum laude with a bachelor of science degree in human and organizational development and economics from Westminster College in Salt Lake City, Utah. She is also a certified analyst relations specialist.</p>
+</div>

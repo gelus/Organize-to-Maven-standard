@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function toArchive(time){
+				var cookieName = 'ReleaseArchiveAuthorizedViewer';
+					var cookieValue = 'Authorized';
+					var myDate = new Date();
+					myDate.setTime(myDate.getTime() + time*60*1000);
+					alert(myDate);
+					document.cookie = cookieName +"=" + cookieValue + ";expires=" + myDate.toUTCString() + ";domain=.mshare.net;path=/";
+                  window.location = "http://www.mshare.net/resources/02032003/10052001/06071959/03151990/releaseArchive/";
+			}
+		</script>
+	</head>
+	<body>
+		<p><a href="javascript:toArchive(20)">WHOOO!</a></p>
+	</body>
+</html>
