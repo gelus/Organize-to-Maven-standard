@@ -19,17 +19,14 @@ for(key in config){
 }
 
 mfs.walkSync(dir, function(dirPath, dirs, files){
-	var newPath, originalFile, file, filePath, fileExtension, langDir;
+	var newPath, file, originalFile, fileExtension, langDir, newFile;
 	for(lang in langs){
-		newPath = dirPath.split("\\");
-		newPath.splice(0,1,"target", langs[lang]);
-		newPath = "../"+newPath.join("/");
+		newPath = "../"+dirPath.replace(/\\/g, "/").replace(dir, 'target/'+langs[lang]);
 		mfs.mkpathSync(newPath);
 	}
 	for(file in files){
 		file = files[file];
 		originalFile = dirPath+"\\"+file;
-		filePath = dirPath.split('\\');
 		fileExtension = file.split('.')[file.split('.').length -1].toLowerCase();
 		langDir = (langs.indexOf(fileExtension) != -1)? fileExtension:'resource';
 
@@ -40,13 +37,8 @@ mfs.walkSync(dir, function(dirPath, dirs, files){
 				})
 			}
 		}
-		filePath.shift();
-		filePath.unshift(langDir);
-		filePath.unshift('target');
-		filePath.push(file);
-		filePath = filePath.join('/');
+		newFile = originalFile.replace(/\\/g, "/").replace(dir, "target/"+langDir)
 
-		mfs.copyFile(originalFile, filePath);
-		// console.log(originalFile);
+		mfs.copyFile(originalFile, newFile);
 	}
 })
